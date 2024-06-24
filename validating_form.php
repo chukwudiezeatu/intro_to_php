@@ -11,7 +11,7 @@
 
     if($_SERVER['REQUEST_METHOD'] == 'POST'){
         if(empty($_POST['fname'])){
-            $fnameErr = "First Name is required";
+            $fnameErr = "First  is required";
         }
         else{
             $fname = sanitizeData($_POST['fname']);
